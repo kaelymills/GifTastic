@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> GifTastic YAY! </title>
+
+<!-- Links  -->
+	<meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="container">
+  <h1> Animated movies are the best movies. </h1>
+
+    <button data-movie="cat">Finding Nemo</button>
+    <button data-movie="dog">The Incredibles</button>
+    <button data-movie="bird">Cars</button>
+    <button data-movie="cat">Shrek</button>
+    <button data-movie="dog">Frozen</button>
+    <button data-movie="bird">Monsters, Inc.</button>
+    <button data-movie="cat">Tangled</button>
+    <button data-movie="dog">The Lion King</button>
+    <button data-movie="bird">Toy Story</button>
+    
+    
+
+  <form id="movie-form">
+    <label for="movie-input">Add a movie: </label>
+    <input type="text" id="movie-input"><br>
+    
+    <!-- Button triggers new movie to be added -->
+    <input id="addMovie" type="submit" value="Add a movie">
+  </form>
+
+
+  <!-- Movies will Get Dumped Dere -->
+  <div id="gifsAppearHere"> </div>
+
+
+ <!-- Scripts -->
+	<script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+	<script src = "assets/script/app.js"> </script>
+
+</body>
+</html>
